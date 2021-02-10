@@ -1,0 +1,136 @@
+header p{
+    font-family: rig-solid-medium-outline, sans-serif;
+    font-size:4.5rem;
+}
+
+nav,
+h2{
+
+    font-family: rig-shaded-medium-face, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#4F6FDB;
+}
+
+nav{
+    padding-top:230px;
+}
+
+nav ul li{
+    margin-top:20px;
+}
+
+nav a {
+    color:#4F6FDB;
+}
+
+.navContainer{
+    position:absolute;
+    left:0;
+    display:flex;
+    flex-direction:column;
+    font-size:2rem;
+    background:white;
+    height:100vh;
+    z-index:4;
+    // border-right:5px solid #646e91;
+}
+
+
+.navContainer ul{
+    display:flex;
+    flex-direction: column;
+}
+
+.navContainer i{
+    font-size:3rem;
+    margin-right:5px;
+}
+
+
+.hamburger{
+    border:none;
+    background:none;
+    flex-direction:column;
+    margin: 0 auto;
+    font-family: video-cond, serif;
+    font-weight: 400;
+    font-style: normal;
+     color:#4F6FDB; 
+    cursor: pointer;
+
+}
+
+.navContainer li button{
+    border:none;
+    background:none;
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+    font-family: video-cond, serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#4F6FDB; 
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.navContainer li button:hover,
+.exit-responsive:hover,
+.hamburger:hover{
+    background:#4F6FDB; 
+    color:white;
+}
+
+.hamburgerContainer{
+    padding-top:20px;
+    display:none;
+}
+
+.exit-responsive{
+    display:none;
+    border:none;
+    background:none;
+    flex-direction:column;
+    margin: 0 auto;
+    font-family: video-cond, serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#4F6FDB;
+    cursor: pointer;
+}
+
+.titleContainer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:300px;
+}
+
+
+//js transitions
+.active{
+    display:flex;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:3;
+    transform:translateX(0);
+    transform:translateY(0);
+}
+
+.show{
+    display:flex;
+
+}
+
+.showSkills{
+    display:grid;
+}
+
+.hideDiv{
+    display:none;
+}

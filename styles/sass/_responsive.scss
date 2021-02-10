@@ -1,0 +1,386 @@
+@media(max-width:1200px){
+
+    .navContainer{
+        width:auto;
+    }
+
+
+    .aboutImageContainer img{
+        margin: 0 auto;
+        width:300px;
+    }
+    
+    .skillIcon i{
+        font-size:calc(4rem + 1vw);
+    }
+
+    .skillIcon img{
+        width:46px;
+    }
+
+    .aboutContainer p, 
+    .projectContainer p{
+        font-size:2.3rem;
+    }
+
+    .projectLinks button{
+        font-size:2.3rem;
+        padding:10px;
+    }
+
+    .skillsContainer ul{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .aboutInnerContainer{
+        flex-direction:column;
+    }
+
+}
+
+
+
+@media(max-width:920px){
+    
+    h2{
+        font-size:7rem;
+        text-align: center;
+    }
+
+
+    .titleContainer{
+        text-align: center;
+    }
+    .aboutDescription p, 
+    .projectContainer p,
+    .projectLinks button{
+        font-size:2rem;
+    }
+
+    .aboutImageContainer img{
+        margin: 0 auto;
+        width:250px;
+    }
+
+    .aboutContainer,
+    .aboutInnerContainer{
+        padding:50px;
+        flex-wrap:wrap;
+    }
+
+    .aboutInnerContainer,
+    .projectInnerContainer{
+        flex-direction:column;
+        padding-bottom:10px;
+        align-items: center;
+    }
+
+    
+    .projectContainer h2{
+        margin:0 auto;
+        padding-left:0px;
+    }
+
+
+    .projectDescriptionContainer{
+        padding-top: 0;
+    }
+
+    .projectInnerContainer img{
+        width:300px;
+    }
+
+    .projectInnerContainer .arrowBtns{
+        margin-top: 50px;
+    } 
+
+}
+
+@media(max-width:720px){
+
+    .navContainer i{
+        font-size:2.5rem;
+    }
+
+    .navContainer{
+        font-size:1.9rem;
+    }
+
+    .aboutDescription p, .projectContainer p{
+        font-size:2rem;
+    }
+
+    .aboutContainer h2, 
+    .projectContainer h2, 
+    .contactContainer h2{
+        font-size:7rem;
+        text-align: center;
+        width:100%;
+        margin:0;
+        top:20px;
+    }
+
+
+    .aboutInnerContainer,
+    .projectInnerContainer{
+        flex-wrap: wrap;
+        padding-bottom:10px;
+        padding: 0;
+        margin-left: 30px;
+        text-align: center  
+
+    }
+
+    .aboutMeSection{
+        padding-top:50px;
+    }
+
+    .skillIcon i{
+        font-size:calc(4rem + 1vw);
+    }
+
+    .skillIcon img{
+        width:36px;
+    }
+
+    .skillList ul{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    .projectSection{
+        padding-top:20px;
+    }
+
+    .projectLinks{
+        display:flex;
+        justify-content: center;
+    }
+
+    .contactContainer input,
+    textarea{
+        width:300px;
+    }
+
+}
+
+@media(max-width:520px){
+
+    .skillIcon i{
+        font-size:calc(2rem + 1vw);
+    }
+    .skillList ul{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header h1{
+        font-size:10rem;
+    }
+
+    .navContainer i{
+        font-size:2.2rem;
+    }
+
+    .navContainer{
+        font-size:1.6rem;
+    }
+
+
+
+    .hamburgerContainer{
+        display:flex;
+
+    }
+
+    nav{
+        display:none;
+    }
+
+    .titleContainer{
+        flex-direction: column;
+    }
+
+
+
+    .aboutContainer,
+    .aboutInnerContainer, 
+    .projectContainer, 
+    .projectInnerContainer{
+        padding-bottom:50px;
+    }
+
+    .aboutImageContainer img{
+        width:200px;
+    }
+
+    .projectInnerContainer img{
+        width:250px;
+    }
+
+    .aboutDescription p,
+    .projectInnerContainer p,
+    .projectLinks button{
+        font-size:2rem;
+    }
+
+
+    .projectLinks button{
+        padding:5px;
+    }
+
+    .contactContainer input,
+    textarea{
+        width:300px;
+    }
+}
+
+@media(max-width:450px){
+
+    header h1{
+        font-size:8rem;
+    }
+
+    header p{
+        font-size:3.7rem;
+    }
+
+    .aboutBtn,
+    .skillsBtn{
+        font-size:1.5rem;
+        width:60px;
+        padding:5px;
+    }
+
+    .skillIcon i{
+        font-size:calc(1.5rem + 1vw);
+    }
+
+    .skillIcon img{
+        width:26px;
+    }
+
+    .skillList p{
+        font-size: 1.5rem;
+    }
+
+    .skillIcon{
+        padding:0.5rem;
+    }
+    
+
+
+    .projectInnerContainer img{
+        width:200px;
+    }
+
+    .aboutContainer h2, 
+    .projectContainer h2, 
+    .contactContainer h2{
+        font-size:5rem;
+        text-align: center;
+        width:100%;
+        margin:0;
+    }
+
+    .aboutContainer h2, 
+    .projectContainer h2{
+        padding-left:20px;
+    }
+
+
+    .aboutDescription p, .projectContainer p,
+    .projectLinks button .arrowBtns button{
+        font-size:1.7rem;
+    }
+
+    .contactContainer input,
+    textarea{
+        width:230px;
+    }
+
+}
+
+@media(max-width:390px){
+
+    .aboutMeSection h2{
+        margin-left: 20px;
+    }
+
+    .aboutImageContainer img{
+        width:170px;
+    }
+
+    .skillList ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projectInnerContainer img{
+        width:150px;
+    }
+
+    .projectContainer{
+        padding-bottom:50px;
+    }
+
+    .aboutContainer,
+    .aboutInnerContainer{
+        padding-bottom:0px;
+    }
+
+    .contactContainer input,
+    textarea{
+        width:200px;
+    }
+}
+
+@media(max-width:360px){
+
+    header h1{
+        font-size:7.5rem;
+    }
+
+    header p{
+        font-size:3.3rem;
+    }
+
+    .aboutMeSection,
+    .projectSection{
+        padding-top:0px;
+    }
+
+    .aboutContainer h2, .projectContainer h2 {
+         padding-left: 0px;
+    }
+
+    .projectContainer{
+        padding-right: 10px;
+    }
+    .projectInnerContainer{
+     margin-left:20px;
+    }
+    .aboutDescription p,
+    .projectInnerContainer p,
+    .projectLinks button,
+    .arrowBtns button{
+        font-size:1.7rem;
+    }
+
+    .contactContainer h2,
+    .projectContainer h2{
+        margin-left:5px;
+    }
+
+    .contactContainer input,
+    textarea{
+        width:150px;
+    }
+
+    .contactContainer form,
+    .socials{
+             padding-top: 5px;
+             margin-left:30px;
+    }
+
+    .socials li{
+        margin: 0px;
+    }
+}

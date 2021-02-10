@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%; 
+}
+
+
+/* //stripping of the styles */
+
+body,
+ul,
+h1,
+h2,
+h3
+p {
+margin: 0;
+padding: 0;
+}
+
+ul {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+text-transform: uppercase;
+}
+
+img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+body {    
+background-color:#4F6FDB;
+}
+
+/* //wrapper container */
+
+.wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    }
+
+//style global
+
+h1,
+p{
+    font-weight: 500;
+    font-style: normal;
+    color:white;
+}
+
+h1{
+    font-family: rig-solid-medium-lines, sans-serif;
+    font-size:12rem;
+}
+
+button a{
+    color:#4F6FDB;
+}
+
+
+
+
+
+
+
+
+
+    
