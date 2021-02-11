@@ -1298,4 +1298,40 @@ form button {
     margin: 0px;
   }
 }
+
+@media (max-width: 300px) {
+  header h1 {
+    font-size: 6.5rem;
+  }
+  header p {
+    font-size: 2.5rem;
+  }
+  .navContainer {
+    font-size: 1.2rem;
+  }
+  .aboutContainer h2,
+  .projectContainer h2,
+  .contactContainer h2 {
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .aboutImageContainer img,
+  .projectInnerContainer img {
+    width: 100px;
+  }
+  .aboutDescription p,
+  .projectInnerContainer p,
+  .projectLinks button,
+  .arrowBtns button {
+    font-size: 1.5rem;
+  }
+  .aboutInnerContainer {
+    margin-left: 0px;
+  }
+  .projectInnerContainer {
+    margin-left: 10px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
